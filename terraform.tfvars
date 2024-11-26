@@ -1,0 +1,11 @@
+region             = "us-east-1"
+vpc_cidr           = "10.0.0.0/16"
+public_subnets     = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+cluster_name       = "my_eks_cluster"
+node_group_name    = "my_node_group"
+instance_type      = "t3.medium"
+node_count         = 3
+eks_role_name      = "my_eks_role"
+eks_node_role_name = "my_eks_node_role"
+aws_key_name       = "my-key"
+ingress_ports      = [22]
